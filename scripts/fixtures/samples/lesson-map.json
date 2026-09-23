@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "subject": "数学",
+  "grade": "七年级上",
+  "lessons": [
+    {
+      "id": "L1",
+      "title": "认识一元一次方程",
+      "unit": "一元一次方程",
+      "periods": 1,
+      "knowledge": ["一元一次方程的定义", "方程的解"],
+      "key_points": ["一元一次方程的定义"],
+      "difficulties": ["由实际问题抽象出方程"],
+      "misconceptions": ["把含未知数的式子都当方程"],
+      "standard": "示例课程标准（2022 年版）· 方程与不等式"
+    }
+  ]
+}
