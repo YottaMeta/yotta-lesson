@@ -141,7 +141,7 @@ bash install.sh --dir <skills-dir>
 ## Works with
 
 - **yotta-mirror** — feed learning diagnostics back into the next lesson's focus;
-- **yotta-item** (planned) — fill the example and practice slots with item content;
+- **yotta-item** — assemble papers from a local item bank and run deterministic paper-structure checks (no item-text generation);
 - **yotta-present** — render the skeleton in a consistent, copyable layout;
 - **yotta-humanize** — natural-language polish for teacher-facing narratives;
 - **yotta-memory** — store map versions and skeleton summaries on request.

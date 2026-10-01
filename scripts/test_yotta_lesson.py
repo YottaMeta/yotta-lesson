@@ -371,6 +371,13 @@ class DocContractTest(unittest.TestCase):
         for name in ("SKILL.md", "README.zh-CN.md", "references/copyright.md"):
             self.assertIn("备课辅助", self._read(*name.split("/")), name)
 
+    def test_family_references_not_stale(self):
+        for name in ("SKILL.md", "README.zh-CN.md", "references/copyright.md"):
+            self.assertNotIn("（规划中）", self._read(*name.split("/")), name)
+        self.assertNotIn("(planned)", self._read("README.md"))
+        self.assertIn("yotta-item", self._read("SKILL.md"))
+        self.assertIn("不生成题面", self._read("SKILL.md"))
+
     def test_plan_format_doc_covers_json_keys(self):
         lesson = yl.load_map(sample_map(), "map")["by_id"]["L1"]
         plan = yl.build_plan(lesson, yl.load_structure(None), now=NOW)

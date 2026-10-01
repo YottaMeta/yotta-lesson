@@ -133,7 +133,7 @@ bash install.sh --dir <技能目录>
 ## 与家族技能协同
 
 - **元镜 yotta-mirror**：用学情数据反哺下一轮备课的薄弱点；
-- **元题 yotta-item**（规划中）：在骨架的例题与练习位补入题目内容；
+- **元题 yotta-item**：按双向细目表从学校自备题库组卷、并做试卷结构校验（不生成题面）；
 - **元呈 yotta-present**：把教案骨架渲染成统一格式；
 - **元真 yotta-humanize**：教师-facing 叙述文字去 AI 味；
 - **元忆 yotta-memory**：按需保存映射包版本与骨架摘要。
