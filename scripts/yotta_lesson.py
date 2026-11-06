@@ -18,7 +18,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-VERSION = "0.1.3"
+VERSION = "0.1.4"
 SCHEMA_VERSION = "1.0"
 TOOL_NAME = "yotta-lesson"
 
